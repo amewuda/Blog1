@@ -1,0 +1,13 @@
+<%- include ("partials/header"); %>
+<h3>This is the new for creating the blogs</h3>
+
+
+<form action="/blogs" method="POST">
+    <input type="text" name="blog[title]" placeholder="Give the blog a title">
+    <input type="text" name="blog[image]" placeholder="Image for blog">
+    <input type="text" name="blog[body]" placeholder="Give the blog contents">
+    <input type="Submit">
+
+</form>
+
+<%- include ("partials/footer"); %>
